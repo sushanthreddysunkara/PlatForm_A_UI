@@ -41,6 +41,10 @@ export default function Sidebar({ connectedProject, onProjectConnect, onProjectD
           Help center
         </button>
         <div className="user-card">
+          <div className="user-avatar">AM</div>
+          <div className="user-copy">
+            <strong>Alex Morgan</strong>
+            <span>VisionIQ operator</span>
           <div className="user-avatar">U</div>
           <div className="user-copy">
             <strong>User</strong>

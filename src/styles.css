@@ -1642,6 +1642,163 @@ button {
   .document-metric-grid strong { font-size: 20px; }
 }
 
+/* =========================================================
+   VisionIQ premium workspace refresh
+   ========================================================= */
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #17253b;
+  background: #f4f7fc;
+  --ink: #17253b;
+  --muted: #70809a;
+  --line: #e4eaf3;
+  --surface: #ffffff;
+  --blue: #3867f0;
+  --violet: #7657dc;
+}
+body { background: #f4f7fc; }
+.app-shell { background: #f4f7fc; }
+.sidebar {
+  width: 254px;
+  flex-basis: 254px;
+  padding: 24px 15px 16px;
+  color: #b6c4df;
+  background: linear-gradient(180deg, #111c35 0%, #162746 58%, #10213f 100%);
+  border-right: 1px solid rgba(255,255,255,.06);
+}
+.brand-lockup { padding: 0 12px 28px; }
+.brand-mark { color: #fff; background: linear-gradient(135deg, #3b76ff, #7c4ee7); border-radius: 11px; box-shadow: 0 8px 18px rgba(77,104,238,.3); }
+.brand-name { color: #f7faff; letter-spacing: .12em; }
+.brand-caption { color: #7f96bc; }
+.projects-section { margin-bottom: 24px; }
+.projects-heading-row { color: #8499bb; }
+.projects-count { border-color: #334668; color: #8da2c6; }
+.workspace-switcher { border-color: #2c4168; background: #1b3154; }
+.project-item, .selected-project-panel { border-color: #2b4168; background: rgba(29,50,84,.72); }
+.project-item:hover, .project-item.active { background: #24426f; border-color: #3b6fc1; }
+.project-icon { color: #dce7ff; background: #315aa4; }
+.project-copy strong, .selected-project-header strong { color: #f3f7ff; }
+.project-copy small, .selected-project-header span:first-child { color: #8ba0c1; }
+.project-check { color: #70a1ff; }
+.project-state.connected, .project-connect-button { color: #eaf1ff; background: #326be8; }
+.project-connect-button:hover { background: #4a7ff1; }
+.project-build-summary span { border-color: #30496f; color: #9db0cf; }
+.create-project-button { border-color: #46618d; color: #afc0dd; }
+.create-project-button:hover { border-color: #71a1ff; color: #91b6ff; }
+.main-nav { gap: 5px; }
+.nav-eyebrow { color: #6f85aa; }
+.nav-item { color: #aebdd6; border-radius: 9px; }
+.nav-item:hover { color: #f2f6ff; background: rgba(57,95,158,.42); }
+.nav-item.active { color: #fff; background: linear-gradient(90deg, #2d64d8, #3e71ee); box-shadow: 0 8px 18px rgba(25,78,184,.22); }
+.sidebar-footer { border-top-color: #2a4168; }
+.utility-item { color: #9fb0cd; }
+.user-card { color: #f1f6ff; border-color: #2a4168; background: rgba(20,40,70,.72); }
+.user-avatar, .topbar-avatar { color: #fff; background: linear-gradient(135deg, #6b51dc, #8f67e8); }
+.user-copy span { color: #8da2c2; }
+.main-content { min-width: 0; }
+.topbar { height: 82px; padding: 0 4.5%; border-bottom-color: #e3e9f2; background: rgba(255,255,255,.88); }
+.breadcrumb { color: #8a98ad; }
+.breadcrumb strong { color: #263b5f; }
+.icon-button { color: #6f80a0; border-radius: 9px; }
+.icon-button:hover { color: var(--blue); background: #edf2ff; }
+.topbar-divider { background: #e0e6ef; }
+.system-status { color: #667995; }
+.topbar-profile { display: flex; align-items: center; gap: 8px; padding-left: 4px; }
+.topbar-avatar { display: grid; place-items: center; width: 30px; height: 30px; font-size: 10px; font-weight: 700; border-radius: 50%; }
+.topbar-profile span:last-child { display: grid; gap: 1px; }
+.topbar-profile strong { color: #294064; font-size: 11px; }
+.topbar-profile small { color: #8492a8; font-size: 9px; }
+.content-wrap { max-width: 1440px; padding: 42px 4.5% 72px; }
+.section-kicker { color: #7184a4; letter-spacing: .15em; }
+.page-intro h1, .workspace-hero h1 { color: var(--ink); letter-spacing: -.04em; }
+.intro-copy { color: var(--muted); line-height: 1.55; }
+.dashboard-source-bar, .dashboard-panel, .dashboard-summary-panel, .panel, .document-paper, .workspace-panel {
+  border-color: var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 8px 26px rgba(31,55,93,.045);
+}
+.dashboard-source-bar { min-height: 68px; padding: 13px 16px; }
+.source-icon { color: #4773df; background: #edf2ff; }
+.dashboard-source-bar strong { color: #31476a; }
+.dashboard-source-bar .source-status { color: #3767d9; background: #edf2ff; }
+.csv-import-button, .primary-action { color: #fff; background: linear-gradient(135deg, #3769ed, #5d55d7); box-shadow: 0 8px 18px rgba(59,96,218,.18); border-radius: 9px; }
+.csv-import-button:hover, .primary-action:hover { background: linear-gradient(135deg, #2d5edc, #5149ca); }
+.dashboard-card-grid { gap: 18px; }
+.dashboard-card { min-height: 236px; padding: 24px; border-color: transparent; border-radius: 16px; box-shadow: 0 10px 24px rgba(31,55,93,.06); }
+.dashboard-card:hover { transform: translateY(-5px); box-shadow: 0 18px 30px rgba(31,55,93,.1); }
+.dashboard-card-mint { color: #173961; background: linear-gradient(135deg, #e4efff, #d7e8ff); }
+.dashboard-card-peach { color: #4c2f62; background: linear-gradient(135deg, #f8e8ff, #f1ddfb); }
+.dashboard-card-sky { color: #164a59; background: linear-gradient(135deg, #dff7f5, #cff0f0); }
+.dashboard-card h2 { color: inherit; }
+.dashboard-card p { color: #637694; }
+.dashboard-card-link { color: #3566d4; }
+.dashboard-summary-panel { padding: 24px; }
+.dashboard-summary-panel h2, .panel h2, .workspace-panel h2 { color: #253b60; }
+.dashboard-summary-stats strong { color: #315fc6; }
+.traffic-stat-card { min-height: 116px; border-color: var(--line); border-radius: 14px; background: #fff; box-shadow: 0 8px 20px rgba(31,55,93,.045); }
+.traffic-stat-card span { color: #7889a4; }
+.traffic-stat-card strong { color: #253b60; }
+.traffic-stat-icon { color: #3469dc; background: #edf2ff; }
+.traffic-stat-card:nth-child(2) .traffic-stat-icon { color: #7960d8; background: #f0edff; }
+.traffic-stat-card:nth-child(3) .traffic-stat-icon { color: #159b9d; background: #e5f8f6; }
+.traffic-stat-card:nth-child(4) .traffic-stat-icon { color: #d18436; background: #fff2df; }
+.chart-period, .record-count { color: #6c7f9f; background: #f1f5fb; border-radius: 7px; }
+.traffic-table-panel { overflow: hidden; }
+.traffic-table th, .document-table th { color: #7f91ac; background: #f6f8fc; }
+.traffic-table td, .document-table td { border-top-color: #edf1f6; color: #536987; }
+.object-type, .camera-id, .location-cell { color: #496485; }
+.workspace-page { display: grid; gap: 22px; }
+.workspace-hero { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; }
+.workspace-hero h1 { margin: 9px 0 8px; font: 700 clamp(30px, 4vw, 48px)/1.05 'Space Grotesk', sans-serif; }
+.workspace-hero-icon { display: grid; place-items: center; width: 58px; height: 58px; color: #fff; background: linear-gradient(135deg, #386cf0, #7555db); border-radius: 16px; box-shadow: 0 12px 24px rgba(61,90,211,.2); }
+.workspace-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.workspace-metric { display: grid; gap: 9px; min-height: 130px; padding: 21px; border: 1px solid var(--line); border-radius: 16px; background: #fff; box-shadow: 0 8px 22px rgba(31,55,93,.04); }
+.workspace-metric span, .workspace-metric small { color: #7b8da8; font-size: 11px; }
+.workspace-metric strong { color: #263e65; font: 700 31px/1 'Space Grotesk', sans-serif; }
+.workspace-metric small { color: #4e9b81; }
+.metric-1 { background: linear-gradient(135deg, #fff, #f7f5ff); }
+.metric-2 { background: linear-gradient(135deg, #fff, #f0fbfa); }
+.workspace-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(300px, .65fr); gap: 18px; }
+.workspace-panel { padding: 24px; }
+.workspace-panel .panel-heading { margin-bottom: 14px; }
+.workspace-panel .text-action { display: inline-flex; align-items: center; gap: 4px; color: #4770d8; }
+.workspace-activity-row { display: flex; align-items: center; gap: 12px; padding: 15px 0; border-top: 1px solid #edf1f6; }
+.workspace-activity-icon, .workspace-link > span { display: grid; place-items: center; flex: 0 0 auto; width: 35px; height: 35px; color: #3d6de0; background: #edf2ff; border-radius: 10px; }
+.icon-1 { color: #7b61d7; background: #f1edff; }
+.icon-2 { color: #1a9997; background: #e7f8f6; }
+.workspace-activity-row > div { display: grid; gap: 4px; flex: 1; }
+.workspace-activity-row strong { color: #344c70; font-size: 12px; }
+.workspace-activity-row span { color: #8a9ab2; font-size: 10px; }
+.workspace-activity-row > svg { color: #9aa9be; }
+.workspace-link { display: flex; align-items: center; gap: 11px; width: 100%; padding: 11px 2px; border: 0; border-top: 1px solid #edf1f6; color: #3a5276; background: transparent; text-align: left; }
+.workspace-link strong { flex: 1; font-size: 12px; }
+.workspace-link:hover { color: var(--blue); }
+.workspace-status { display: flex; align-items: center; gap: 8px; margin-top: 18px; padding: 13px; color: #8091aa; background: #f5f8fc; border-radius: 10px; font-size: 10px; }
+.workspace-status strong { margin-left: auto; color: #506987; font-size: 10px; }
+.placeholder-status { color: #3d6de0; background: #edf2ff; }
+.ontology-page { padding: 10px 0 0; }
+.ontology-topbar h1 { color: var(--ink); }
+.ontology-workspace { border-color: var(--line); border-radius: 16px; box-shadow: 0 10px 28px rgba(31,55,93,.06); }
+.ontology-toolbar, .ontology-sidebar { background: #fff; border-color: var(--line); }
+.ontology-search { border-color: #dbe4f0; background: #f9fbfe; }
+.ontology-toolbar-actions button { color: #5d7295; border-color: #dce5f1; }
+.ontology-toolbar-actions button:hover { color: var(--blue); background: #edf2ff; border-color: #c6d5fb; }
+.ontology-graph-canvas { background: radial-gradient(circle at center, #ffffff 0%, #f5f8fd 72%, #eef3fa 100%); }
+.ontology-layout-badge, .ontology-graph-info { border-color: #dfe7f2; box-shadow: 0 8px 20px rgba(31,55,93,.08); }
+.ontology-sidebar-tabs button.active { color: var(--blue); }
+.ontology-sidebar-tabs button.active::after { background: var(--blue); }
+@media (max-width: 900px) {
+  .workspace-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 720px) {
+  .topbar-profile { display: none; }
+  .topbar-optional { display: none; }
+  .workspace-hero { align-items: flex-start; }
+  .workspace-metrics { grid-template-columns: 1fr; }
+  .workspace-hero-icon { width: 46px; height: 46px; }
+}
+
 @media (max-width: 440px) {
   .brand-name { font-size: 14px; }
   .brand-caption { font-size: 8px; }
